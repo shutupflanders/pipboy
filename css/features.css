@@ -1,0 +1,293 @@
+/* links have no outlines */
+:focus {
+ outline: 0px;
+ }
+
+/* removes any borders from clickable images */
+img{
+	border-style:none;
+} 
+ 
+/*back button */
+#backimg {
+	position: absolute;
+	top:77.9%;
+	left:42.3%;
+	height: 4.8%;
+	width: 5%;
+	display: block;
+	background: url('./images/back.png') no-repeat;
+	text-indent: -99999px;
+	z-index: 2;
+	border-style: none;
+	border:0;
+}
+
+/*back button rollover images */
+#back1{
+	position: absolute;
+	height:4%;
+	width:4.5%;
+	top: 77.9%;
+	left: 42%;
+	z-index: 3;
+}
+
+/* advert button */
+#ad1{
+	position: absolute;
+	height:4%;
+	width:4.5%;
+	top: 77.9%;
+	left: 64.2%;
+	z-index: 3;
+}
+
+/* the three main navigation buttons */
+#buttona {
+	position: absolute;
+	height:6.5%;
+	width:3.5%;
+	top: 79.8%;
+	left: 47.3%;
+	z-index: 2;
+}
+
+#buttonc {
+	position: absolute;
+	height:6.5%;
+	width:3.5%;
+	top: 79.5%;
+	left: 53.7%;
+	z-index: 2;
+}
+
+#buttone {
+	position: absolute;
+	height:6.5%;
+	width:3.5%;
+	top: 79.5%;
+	left: 60.3%;
+	z-index: 2;
+}
+
+/* buttons on the side navigation bar */
+#contact {
+	position: absolute;
+	height:2.9%;
+	width:14.2%;
+	top: 38%;
+	left: 8%;
+	z-index: 2;
+}
+
+#newsletter {
+	position: absolute;
+	height:2.9%;
+	width:14.2%;
+	top: 43.1%;
+	left: 8%;
+	z-index: 2;
+}
+
+#site {
+	position: absolute;
+	height:2.9%;
+	width:14.2%;
+	top: 47.9%;
+	left: 8%;
+	z-index: 2;
+}
+
+
+/* the floating navigation bar that appears on the stats page */
+/* places the navigation bar at the front of the screen on the stats page */
+#stats-nav {
+	display: none;
+	z-index: 4;
+}
+#statstory{
+	position: absolute;
+	height: 3.1%;
+	width: 5.5%;
+	top: 16%;
+	left: 34%;
+	z-index:4;
+}
+
+#statattr{
+	position: absolute;
+	height: 3.1%;
+	width: 8%;
+	top: 16%;
+	left: 47%;
+	z-index:4;
+}
+
+#statkarma{
+	position: absolute;
+	height: 3.1%;
+	width: 5%;
+	top: 16%;
+	left: 55%;
+	z-index:4;
+}
+
+#statvats{
+	position: absolute;
+	height: 3.1%;
+	width: 5.5%;
+	top: 16%;
+	left: 60%;
+	z-index:4;
+}
+
+#statcomps{
+	position: absolute;
+	height: 3.1%;
+	width: 8%;
+	top: 16%;
+	left: 65%;
+	z-index:4;
+}
+
+
+/*the images that appear on the stats page */
+#coverart {
+	position:absolute;
+	top:20%;
+	left:60%;
+	height: 64%;
+	width: 32%;
+}
+
+#hero {
+	position: absolute;
+	top: 150%;
+	left: 60%;
+	height: 64%;
+	width: 32%;
+}
+
+#attrib {
+	position: absolute;
+	top: 300%;
+	left: 60%;
+	height: 44%;
+	width: 32%;
+}
+	
+#karm {
+	position: absolute;
+	top: 300%;
+	left: 60%;
+	height: 44%;
+	width: 32%;
+}
+
+#vats-im {
+	position: absolute;
+	top: 430%;
+	left: 60%;
+	height: 44%;
+	width: 32%;
+}
+
+#compan {
+	position: absolute;
+	top: 580%;
+	left: 60%;
+	height: 44%;
+	width: 32%;
+}
+
+/* the validation images at the footer of the index page */	
+#validated {
+	position: absolute;
+	top: 88%;
+	left: 45%;
+	z-index: 2;
+}
+
+#css_validated {
+	position: absolute;
+	top: 88%;
+	left: 60%;
+	z-index: 2;
+}
+
+#js_validated {
+	position: absolute;
+	top: 88%;
+	left: 54%;
+	z-index: 2;
+}
+
+/* the images on the items page */
+#brass-kp {
+	position: absolute;
+	top: 55%;
+	left:60%;
+	height: 44%;
+	width: 32%;
+}
+
+#baseball-p {
+	position: absolute;
+	top: 200%;
+	left:60%;
+	height: 20%;
+	width: 32%;
+}
+
+#pistol-p {
+	position: absolute;
+	top: 280%;
+	left:60%;
+	height: 20%;
+	width: 32%;
+}
+
+#hunting-r-p {
+	position: absolute;
+	top: 420%;
+	left:50%;
+	height: 20%;
+	width: 40%;
+}
+
+#plasma-r-p {
+	position: absolute;
+	top: 620%;
+	left:55%;
+	height: 20%;
+	width: 40%;
+}
+
+#fatman-p {
+	position: absolute;
+	top: 790%;
+	left:55%;
+	height: 20%;
+	width: 40%;
+}
+
+/* the table style on the data page */
+#reception {
+	border-style: dashed;
+}
+
+.heading-t {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.heading-m{
+	font-weight: bold;
+	text-align: center;
+}
+
+td {
+	border: 1px dotted;
+}

@@ -1,0 +1,25 @@
+/* sets the main font and font colour for the entire site */
+body {
+	color:#00FF00;
+	font-family: "Courier New";
+}
+
+h1 {
+	font-size: 1em;
+	font-weight: 100;
+}
+
+h2 {
+	border-style: solid;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: 100;
+}
+/* the list on the stats page */
+#navi-h ul, #navi-h li {
+	font-size: 1em;
+	font-weight: bold;
+	color:#2b8633;
+}

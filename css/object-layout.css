@@ -1,0 +1,133 @@
+
+/* makes sure the background is stretched 100% in the object */
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+/* the main title for every page */
+div.title-h{
+	background-color: #000000;
+	position:fixed;
+	width: 91%;
+	height:9%;
+	border-bottom-style: solid;
+	border-right-style: solid;
+	border-color: #00FF00;
+	z-index: 3;
+}
+
+/* intro on the home page */
+#intro {
+	position: absolute;
+	top: 15%;
+	width: 80%;
+	text-align: center;
+	}
+
+/*div poisitions for the stats page */	
+div.content-h #story {
+	position: absolute;
+	top:25%;
+	width:60%;
+}
+
+div.content-h #attr {
+	position: absolute;
+	top:180%;
+	width:60%;
+}
+
+div.content-h #karma {
+	position: absolute;
+	top:300%;
+	width:60%;
+}
+
+div.content-h #vats{
+	position: absolute;
+	top:430%;
+	width:60%;
+}
+
+div.content-h #comps{
+	position: absolute;
+	top:580%;
+	width:60%;
+}
+
+/* div positions for the items page */
+div.content-i {
+	position: absolute;
+	top: 15%;
+	width: 80%;
+}
+
+div.content-i #brass-k {
+	position:absolute;
+	top: 100%;
+	width: 70%;
+}
+
+div.content-i #baseball {
+	position:absolute;
+	top: 750%;
+	width: 70%;
+}
+
+div.content-i #pistol {
+	position:absolute;
+	top: 1130%;
+	width: 70%;
+}
+
+div.content-i #hunting-r{
+	position:absolute;
+	top: 1700%;
+	width: 70%;
+}
+
+div.content-i #plasma-r{
+	position:absolute;
+	top: 2600%;
+	width: 70%;
+}
+
+div.content-i #fatman {
+	position:absolute;
+	top: 3390%;
+	width: 70%;
+}
+
+/* brings the title above the background div */
+#title2 {
+	z-index:1;
+}
+
+/* main content for the data page */
+#content-d {
+	position: absolute;
+	top: 15%;
+	width: 80%;
+}
+
+/* main content for the contact page */
+#content-f{
+	position: absolute;
+	top: 20%;
+	width: 80%;
+}
+
+/*usability page div positions */
+#intro-u {
+	position: absolute;
+	top: 15%;
+	width: 80%;
+}
+
+#usability-u {
+	position: absolute;
+	top: 25%;
+	width: 80%;
+}
